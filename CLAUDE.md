@@ -1,7 +1,7 @@
 # CLAUDE.md - CommandManager
 
 > Cross-project conventions: `F:\MyDev\strategy-generic\CLAUDE.md` (auto-loaded via `F:\MyDev\CLAUDE.md`).
-> CommandManager-specific strategy and roadmap: `F:\MyDev\strategy-commandmanager\`.
+> Current tasks and session log: `ROADMAP.md` (this repo).
 
 ## Vision
 
