@@ -1,7 +1,7 @@
 # CLAUDE.md - CommandManager
 
-> See `F:\MyDev\docman-strategy\CLAUDE.md` for cross-project architectural principles.
-> CommandManager follows the same core principles adapted for a CLI/REPL tool.
+> Cross-project conventions: `F:\MyDev\strategy-generic\CLAUDE.md` (auto-loaded via `F:\MyDev\CLAUDE.md`).
+> CommandManager-specific strategy and roadmap: `F:\MyDev\strategy-commandmanager\`.
 
 ## Vision
 
