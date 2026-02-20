@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "commandmanager"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.0",
+    "prompt-toolkit>=3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "mypy",
+    "ruff",
+    "black",
+    "pytest",
+]
+
+[project.scripts]
+ijob   = "commandmanager.cli:run_ijob"
+docman = "commandmanager.cli:run_docman"
+johan  = "commandmanager.cli:run_johan"
+
+[tool.setuptools.packages.find]
+where = ["src"]

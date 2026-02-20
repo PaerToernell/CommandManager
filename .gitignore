@@ -1,0 +1,90 @@
+# ------------------------
+# PYTHON
+# ------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# ------------------------
+# VIRTUAL ENVIRONMENTS
+# ------------------------
+.env
+.env.*
+venv/
+env/
+.venv/
+
+# ------------------------
+# IDEs / EDITORS
+# ------------------------
+.idea/
+.vscode/
+*.swp
+*.bak
+
+# ------------------------
+# DATABASES
+# ------------------------
+*.sqlite3
+*.db
+
+# ------------------------
+# TESTING / COVERAGE
+# ------------------------
+.cache/
+.coverage
+coverage.xml
+htmlcov/
+nosetests.xml
+junit*.xml
+
+# ------------------------
+# LOGS / OUTPUT
+# ------------------------
+*.log
+*.out
+*.err
+logs/
+
+# ------------------------
+# OS SPECIFIC
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# LOCAL CONFIG / SECRETS
+# ------------------------
+config.local.json
+settings_local.py
+.env.local
+.env.test
+.env.dev
+.env.prod
+*.pem
+*.crt
+*.key
+secrets.json
+
+# ------------------------
+# DOCUMENTATION / BUILD ARTIFACTS
+# ------------------------
+docs/_build/
+site/
+
+# ------------------------
+# MISC / BACKUPS
+# ------------------------
+*.bak
+*.tmp
+*.old
+*.orig
+
+.claude/
